@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Вводятся три числа. Вывести большее их них\n не используя Math, на сколько я понял");
+            Console.WriteLine("Вводятся четыре числа. Вывести большее из них\n не используя Math, на сколько я понял");
             Console.WriteLine("Введите первое число");
             double dig1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе число");
