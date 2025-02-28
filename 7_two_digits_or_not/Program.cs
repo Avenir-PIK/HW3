@@ -9,7 +9,7 @@
 
             int dig1 = Convert.ToInt32(Console.ReadLine());
 
-            if (dig1 / 10 >= 1 && dig1 / 10 < 10) Console.WriteLine("\nДа");
+            if (dig1 >= 10 && dig1 <= 99) Console.WriteLine("\nДа");
             else Console.WriteLine("\nНет");
 
             Console.WriteLine("\nPress any key to quit");
