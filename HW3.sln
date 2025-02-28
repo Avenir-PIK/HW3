@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_compare_two_double", "1_compare_two_int\1_compare_two_double.csproj", "{D7226167-B0BF-40FF-A1FF-6DA81C206EC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_compare_two_double", "1_compare_two_int\01_compare_two_double.csproj", "{D7226167-B0BF-40FF-A1FF-6DA81C206EC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_bigger_of_three", "2_bigger_of_three\2_bigger_of_three.csproj", "{578DFA46-B794-4AFF-9053-F064545BF176}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_from_-10_to_10", "8_from_-10_to_10\8_from_-10_to_10.csproj", "{D63E0142-CB7B-4888-A5DB-1CECDFEA18A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_not_from_-10_to_10", "9_not_from_-10_to_10\9_not_from_-10_to_10.csproj", "{1D845DD9-8F00-4640-8581-ECF4C2EFE52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_n_houses", "10_n_houses\10_n_houses.csproj", "{1F329CCB-958F-4511-8D2C-9338CF5C2B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{1D845DD9-8F00-4640-8581-ECF4C2EFE52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D845DD9-8F00-4640-8581-ECF4C2EFE52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D845DD9-8F00-4640-8581-ECF4C2EFE52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F329CCB-958F-4511-8D2C-9338CF5C2B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F329CCB-958F-4511-8D2C-9338CF5C2B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F329CCB-958F-4511-8D2C-9338CF5C2B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F329CCB-958F-4511-8D2C-9338CF5C2B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
