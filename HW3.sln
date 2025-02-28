@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_compare_two_double", "1_compare_two_int\1_compare_two_double.csproj", "{D7226167-B0BF-40FF-A1FF-6DA81C206EC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_compare_two_double", "1_compare_two_int\01_compare_two_double.csproj", "{D7226167-B0BF-40FF-A1FF-6DA81C206EC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_bigger_of_three", "2_bigger_of_three\2_bigger_of_three.csproj", "{578DFA46-B794-4AFF-9053-F064545BF176}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_bigger_of_three", "2_bigger_of_three\02_bigger_of_three.csproj", "{578DFA46-B794-4AFF-9053-F064545BF176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_bigger_of_four", "3_bigger_of_four\3_bigger_of_four.csproj", "{97C621BD-BF8B-4465-BD96-0A44A3EFC8A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_bigger_of_four", "3_bigger_of_four\03_bigger_of_four.csproj", "{97C621BD-BF8B-4465-BD96-0A44A3EFC8A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_middle_of_three_different_doubles", "4_middle_of_three_different_doubles\4_middle_of_three_different_doubles.csproj", "{307E1BC7-D154-46F3-AA05-3EDACD3FAC4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_middle_of_three_different_doubles", "4_middle_of_three_different_doubles\04_middle_of_three_different_doubles.csproj", "{307E1BC7-D154-46F3-AA05-3EDACD3FAC4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_YES_if_end_on_0", "5_YES_if_end_on_0\5_YES_if_end_on_0.csproj", "{8B7E3508-864F-4545-8DF1-3FDDCDC3BDFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_YES_if_end_on_0", "5_YES_if_end_on_0\05_YES_if_end_on_0.csproj", "{8B7E3508-864F-4545-8DF1-3FDDCDC3BDFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_even_or_not", "6_even_or_not\6_even_or_not.csproj", "{AE9ED8B9-CE55-4358-81AE-BD5E7CD5F662}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_even_or_not", "6_even_or_not\06_even_or_not.csproj", "{AE9ED8B9-CE55-4358-81AE-BD5E7CD5F662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_two_digits_or_not", "7_two_digits_or_not\7_two_digits_or_not.csproj", "{529344EB-8CFD-4F3C-8E30-12DB24AB0C74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_two_digits_or_not", "7_two_digits_or_not\07_two_digits_or_not.csproj", "{529344EB-8CFD-4F3C-8E30-12DB24AB0C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_from_-10_to_10", "8_from_-10_to_10\8_from_-10_to_10.csproj", "{D63E0142-CB7B-4888-A5DB-1CECDFEA18A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_from_-10_to_10", "8_from_-10_to_10\08_from_-10_to_10.csproj", "{D63E0142-CB7B-4888-A5DB-1CECDFEA18A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_not_from_-10_to_10", "9_not_from_-10_to_10\9_not_from_-10_to_10.csproj", "{1D845DD9-8F00-4640-8581-ECF4C2EFE52D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_not_from_-10_to_10", "9_not_from_-10_to_10\09_not_from_-10_to_10.csproj", "{1D845DD9-8F00-4640-8581-ECF4C2EFE52D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_n_houses", "10_n_houses\10_n_houses.csproj", "{1F329CCB-958F-4511-8D2C-9338CF5C2B6A}"
 EndProject
