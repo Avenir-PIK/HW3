@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // коммент для видимости в пулл реквесте
             Console.WriteLine("Дано целое число в диапазоне 100–999. Вывести строку-описание данного числа, например: 256 — «двести пятьдесят шесть», 814 — «восемьсот четырнадцать». Если пользователь введёт данные не соответствующие условию задачи - выдать сообщение об ошибке.\r\n\r\nНеобходимо решить задачи в");
             Console.WriteLine("Введите число\n");
 
@@ -23,7 +24,7 @@
 
                 switch (dig_1)
                 {
-                    case 1: allgid = "Сто"; break;
+                    case 1: dig_1str = "Сто"; break;
                     case 2: dig_1str = "Двести"; break;
                     case 3: dig_1str = "Триста"; break;
                     case 4: dig_1str = "Четыреста"; break;
@@ -74,7 +75,11 @@
                     case 9: dig_3str = "девять"; break;
                     case 0: dig_3str = ""; break;
                 }
+
+                // собираем в одну строку.
+
                 if (dig_2 == 1) allgid = dig_1str + " " + dig_2str;
+                else if (dig_2 == 0) allgid = dig_1str + " " + dig_3str;
                 else allgid = dig_1str + " " + dig_2str + " " + dig_3str;
 
                 Console.WriteLine("\n{0}", allgid);

@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // коммент для видимости в пулл реквесте
             Console.WriteLine("Вводятся два числа. Сравнить их и вывести правильный знак «<», «>» или «=».\n");
             Console.WriteLine("Введите первое число");
             double dig1 = Convert.ToDouble(Console.ReadLine());
