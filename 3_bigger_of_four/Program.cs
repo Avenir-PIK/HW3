@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // коммент для видимости в пулл реквесте
             Console.WriteLine("Вводятся четыре числа. Вывести большее из них\n не используя Math, на сколько я понял");
             Console.WriteLine("Введите первое число");
             double dig1 = Convert.ToDouble(Console.ReadLine());

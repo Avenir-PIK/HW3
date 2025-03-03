@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            // коммент для видимости в пулл реквесте
             Console.WriteLine("Вводятся три разных числа. Вывести медиану – среднее по величине число.");
             Console.WriteLine("Введите первое число");
             double dig1 = Convert.ToDouble(Console.ReadLine());
