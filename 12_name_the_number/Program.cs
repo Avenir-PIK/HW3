@@ -74,6 +74,9 @@
                     case 9: dig_3str = "девять"; break;
                     case 0: dig_3str = ""; break;
                 }
+
+                // собираем в одну строку
+
                 if (dig_2 == 1) allgid = dig_1str + " " + dig_2str;
                 else allgid = dig_1str + " " + dig_2str + " " + dig_3str;
 
