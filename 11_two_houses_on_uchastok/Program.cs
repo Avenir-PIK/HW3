@@ -6,24 +6,32 @@
         {
             Console.WriteLine("Можно ли на прямоугольном участке застройки размером a * b метров разместить два дома размером в плане p * q и r * s метров? Дома можно располагать только параллельно сторонам участка. Дома могу стоять «вплотную» друг к другу.");
             Console.WriteLine("\nВведите число a\n");
-            int dig_a = Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\nВведите число b\n");
-            int dig_b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\nВведите число p\n");
-            int dig_p = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\nВведите число q\n");
-            int dig_q = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\nВведите число r\n");
-            int dig_r = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\nВведите число s\n");
-            int dig_s = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
 
-            // надо подумать как это сделать не на 100500 строк =)
-            
-            if (dig1 <= -10 || dig1 >= 10) Console.WriteLine("\nДа");
-            
-            
-            else Console.WriteLine("\nНет");
+            Console.WriteLine("\nВведите число p\n");
+            int p = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nВведите число q\n");
+            int q = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nВведите число r\n");
+            int r = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nВведите число s\n");
+            int s = Convert.ToInt32(Console.ReadLine());
+
+            // жуть какая-то, решение не нравится.
+
+            if      ((a >= (p + r)) && (b >= q && b >= s)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else if ((a >= (q + r)) && (b >= p && b >= s)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else if ((b >= (p + r)) && (a >= q && a >= s)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else if ((b >= (q + r)) && (a >= p && a >= s)) Console.WriteLine("\nДа, разместить два дома возможно");
+
+            else if ((a >= (p + s)) && (b >= q && b >= r)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else if ((a >= (q + s)) && (b >= p && b >= r)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else if ((b >= (p + s)) && (a >= q && a >= r)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else if ((b >= (q + s)) && (a >= p && a >= r)) Console.WriteLine("\nДа, разместить два дома возможно");
+            else Console.WriteLine("\nНет, разместить два дома невозможно");
 
 
             Console.WriteLine("\nPress any key to quit");
