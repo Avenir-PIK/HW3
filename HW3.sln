@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_n_houses", "10_n_houses\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_two_houses_on_uchastok", "11_two_houses_on_uchastok\11_two_houses_on_uchastok.csproj", "{EAF313B0-BBF1-46DE-92EF-5B93DEACB3EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_name_the_number", "12_name_the_number\12_name_the_number.csproj", "{075959A0-D51F-4F92-8014-8C68320416DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{EAF313B0-BBF1-46DE-92EF-5B93DEACB3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAF313B0-BBF1-46DE-92EF-5B93DEACB3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF313B0-BBF1-46DE-92EF-5B93DEACB3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075959A0-D51F-4F92-8014-8C68320416DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075959A0-D51F-4F92-8014-8C68320416DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075959A0-D51F-4F92-8014-8C68320416DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075959A0-D51F-4F92-8014-8C68320416DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
